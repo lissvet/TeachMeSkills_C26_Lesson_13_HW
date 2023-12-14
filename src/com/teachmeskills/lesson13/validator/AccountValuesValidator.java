@@ -6,7 +6,7 @@ import com.teachmeskills.lesson13.utils.IConst;
 
 public class AccountValuesValidator {
 
-    public static boolean CheckValidAccountValues (String login, String password, String confirmPassword)
+    public static boolean checkValidAccountValues (String login, String password, String confirmPassword)
             throws WrongLoginException,
                    WrongPasswordException {
         //Login check

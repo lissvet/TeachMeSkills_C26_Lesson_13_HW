@@ -8,7 +8,7 @@ import java.util.Arrays;
 
 public class AccountValuesValidator2 {
 
-    public static boolean CheckValidAccountValues2 (String login, String password, String confirmPassword)
+    public static boolean checkValidAccountValues2 (String login, String password, String confirmPassword)
             throws WrongLoginException,
             WrongPasswordException {
         //Login check

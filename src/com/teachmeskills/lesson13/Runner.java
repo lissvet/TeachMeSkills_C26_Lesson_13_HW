@@ -42,7 +42,7 @@ public class Runner {
         //First method verification using out-of-the-box methods
         System.out.println("First examination:");
         try {
-            boolean result = AccountValuesValidator.CheckValidAccountValues(log, pass, confPass);
+            boolean result = AccountValuesValidator.checkValidAccountValues(log, pass, confPass);
             if(result){
                 System.out.println("First login check successful");
             }
@@ -57,7 +57,7 @@ public class Runner {
         //checking with the second method by converting strings to an array of chars
         System.out.println("Second examination:");
         try {
-            boolean result2 = AccountValuesValidator2.CheckValidAccountValues2(log, pass, confPass);
+            boolean result2 = AccountValuesValidator2.checkValidAccountValues2(log, pass, confPass);
             if(result2){
                 System.out.println("First login check successful");
             }
